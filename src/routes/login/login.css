@@ -1,0 +1,37 @@
+.form-login{
+    background-color: white;
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 5px;
+    min-width: 280px;
+    box-shadow: 1px 1px 10px gray;
+}
+
+.legend-login{
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.input-login{
+    padding: 15px 5px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: gainsboro;
+}
+
+.button-login{
+    padding: 10px 0;
+    background-color: rgb(223, 148, 9);
+    color:white;
+    font-weight: 700;
+    border-radius: 5px;
+    border:none;
+}
+
+.button-login:hover{
+    background-color: rgb(187, 128, 17);
+}
